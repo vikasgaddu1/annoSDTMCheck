@@ -1,0 +1,166 @@
+Metadata-Version: 2.4
+Name: sdtm_checker
+Version: 1.0.0
+Summary: A tool for validating SDTM annotations in PDF files
+Home-page: https://github.com/yourusername/sdtm_checker
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: click>=8.1.0
+Requires-Dist: pandas>=1.5.0
+Requires-Dist: pyreadstat>=1.2.0
+Requires-Dist: openpyxl>=3.1.0
+Requires-Dist: PyMuPDF>=1.22.0
+Requires-Dist: PyYAML>=6.0
+Requires-Dist: rich>=10.0.0
+Provides-Extra: dev
+Requires-Dist: pytest==8.0.0; extra == "dev"
+Requires-Dist: black==24.1.1; extra == "dev"
+Requires-Dist: flake8==7.0.0; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# SDTM Annotation Checker
+
+A Python tool for validating CRF (Case Report Form) annotations against SDTM (Study Data Tabulation Model) datasets.
+
+## Overview
+
+This application extracts annotations from PDF CRFs, parses them to identify SDTM domains and variables, and validates them against actual SDTM datasets (SAS7BDAT files) to identify mismatches and ensure data consistency.
+
+## Features
+
+- Extract annotations from PDF files
+- Export annotations to XFDF format
+- Parse annotations to identify SDTM domains, variables, and values
+- Read and analyze SAS7BDAT files (SDTM datasets)
+- Validate annotations against actual SDTM variables
+- Generate comprehensive mismatch reports in Excel format
+
+## Project Structure
+
+```
+annoSDTMCheck/
+â”œâ”€â”€ src/
+â”‚   â””â”€â”€ sdtm_checker/
+â”‚       â”œâ”€â”€ core/           # Core functionality (PDF processing, XFDF conversion)
+â”‚       â”œâ”€â”€ models/         # Data models and classes
+â”‚       â”œâ”€â”€ utils/          # Utility functions
+â”‚       â”œâ”€â”€ validators/     # Validation logic
+â”‚       â””â”€â”€ reporters/      # Report generation
+â”œâ”€â”€ tests/
+â”‚   â”œâ”€â”€ unit/              # Unit tests
+â”‚   â”œâ”€â”€ integration/       # Integration tests
+â”‚   â””â”€â”€ fixtures/          # Test data
+â”œâ”€â”€ docs/                  # Documentation
+â”œâ”€â”€ config/                # Configuration files
+â”œâ”€â”€ scripts/               # Utility scripts
+â”œâ”€â”€ archive/               # Archived/deprecated code
+â””â”€â”€ output/                # Output directory for reports
+```
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd annoSDTMCheck
+```
+
+2. Create a virtual environment:
+```bash
+# On Windows, using 'py' launcher is recommended
+py -m venv .venv
+
+# On Windows (PowerShell):
+.venv\Scripts\Activate.ps1
+# On Windows (Command Prompt):
+.venv\Scripts\activate.bat
+# On Unix/MacOS:
+source .venv/bin/activate
+```
+
+3. Install dependencies:
+```bash
+# Make sure your virtual environment is activated before running this command.
+pip install -r requirements.txt
+```
+
+## Usage
+
+**Note**: This project uses the `py` launcher for Python on Windows. If you have multiple Python versions, ensure the correct one is used.
+
+### Running the Application
+To run the main application, use the following command:
+```bash
+py -m sdtm_checker --help
+```
+
+### Basic Usage
+
+```bash
+# Extract annotations from PDF to XFDF
+py -m src.sdtm_checker.core.pdf2fdf --input crf/sample.pdf --output output/sample.xfdf
+
+# Convert XFDF to Excel
+py -m src.sdtm_checker.core.xfdf2xlsx --input output/sample.xfdf --output output/sample.xlsx
+```
+
+### Validating CRF Annotations
+
+```bash
+# Validate annotations against SDTM datasets
+py -m sdtm_checker validate --pdf crf/acrf_myf1001.pdf --sdtm ./sdtm/ --output output/report.xlsx
+```
+
+#### Command Line Options
+
+- `--pdf`: Path to the annotated CRF PDF file (required)
+- `--sdtm`: Path to directory containing SDTM datasets (required)
+- `--output`: Path to output report file (default: validation_report.xlsx)
+- `--config`: Path to configuration file (defined but not yet implemented)
+- `--verbose`: Enable detailed debug logging (optional)
+
+#### Using the Batch File
+
+For Windows users, a batch file is provided for convenience:
+
+```bash
+# Simply run the batch file
+run_sdtm_checker.bat
+```
+
+This will activate the virtual environment and run the validation with predefined parameters.
+
+## Development Status
+
+This project is currently under active development. See [docs/TODO.md](docs/TODO.md) for the current task list and [docs/PROJECT_PLAN.md](docs/PROJECT_PLAN.md) for the development timeline.
+
+## Contributing
+
+Please read our contributing guidelines before submitting pull requests.
+
+## License
+
+[Add license information here]
+
+## Contact
+
+[Add contact information here] 
