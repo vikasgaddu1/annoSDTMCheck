@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2025-10-21T10:35:44.906786",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\myf1001_csr_part1.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-21T23:56:27.798269",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\myf1001_csr_part1.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  }
+]

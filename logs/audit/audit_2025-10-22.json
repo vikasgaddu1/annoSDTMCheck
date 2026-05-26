@@ -1,0 +1,845 @@
+[
+  {
+    "timestamp": "2025-10-22T00:01:27.045156",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "paths.annotated_crf_file": {
+          "old": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/RE_CSR_Part1/Dev/vgaddu/acrf/aCRF.pdf",
+          "new": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/RE_CSR_Part1/Dev/vgaddu/acrf/incorrect.pdf"
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T00:03:29.142179",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T00:03:32.989246",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T00:17:30.998890",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T00:26:28.454264",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\myf1001_csr_part1.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T00:26:38.060591",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "paths.annotated_crf_file": {
+          "old": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/RE_CSR_Part1/Dev/vgaddu/acrf/aCRF.pdf",
+          "new": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/RE_CSR_Part1/Dev/vgaddu/acrf/incorrect.pdf"
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T01:05:05.477061",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\myf1001_csr_part1.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T01:05:11.317216",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "paths.annotated_crf_file": {
+          "old": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/RE_CSR_Part1/Dev/vgaddu/acrf/aCRF.pdf",
+          "new": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/RE_CSR_Part1/Dev/vgaddu/acrf/incorrect.pdf"
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T01:40:23.684179",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\myf1001_csr_part1.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T01:40:31.005570",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "paths.annotated_crf_file": {
+          "old": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/RE_CSR_Part1/Dev/vgaddu/acrf/aCRF.pdf",
+          "new": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/RE_CSR_Part1/Dev/vgaddu/acrf/incorrect.pdf"
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T01:51:49.725076",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "validation.auto_resize_textboxes": {
+          "old": null,
+          "new": false
+        },
+        "validation.resize_max_width_expansion": {
+          "old": null,
+          "new": 200.0
+        },
+        "validation.resize_max_height_expansion": {
+          "old": null,
+          "new": 300.0
+        },
+        "validation.align_annotations": {
+          "old": null,
+          "new": false
+        },
+        "validation.align_horizontal": {
+          "old": null,
+          "new": true
+        },
+        "validation.align_vertical": {
+          "old": null,
+          "new": true
+        },
+        "validation.horizontal_tolerance": {
+          "old": null,
+          "new": 10.0
+        },
+        "validation.vertical_tolerance": {
+          "old": null,
+          "new": 10.0
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T01:51:58.666747",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\myf1001_csr_part1.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T01:52:05.608399",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "paths.annotated_crf_file": {
+          "old": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/RE_CSR_Part1/Dev/vgaddu/acrf/aCRF.pdf",
+          "new": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/RE_CSR_Part1/Dev/vgaddu/acrf/incorrect.pdf"
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T02:01:27.534479",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\myf1001_csr_part1.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T02:01:34.045362",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "paths.annotated_crf_file": {
+          "old": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/RE_CSR_Part1/Dev/vgaddu/acrf/aCRF.pdf",
+          "new": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/RE_CSR_Part1/Dev/vgaddu/acrf/incorrect.pdf"
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T02:25:26.138886",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\myf1001_csr_part1.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T02:25:34.552639",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "paths.annotated_crf_file": {
+          "old": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/RE_CSR_Part1/Dev/vgaddu/acrf/aCRF.pdf",
+          "new": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/RE_CSR_Part1/Dev/vgaddu/acrf/incorrect.pdf"
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T02:41:35.618895",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\myf1001_csr_part1.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T02:41:48.287223",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "paths.annotated_crf_file": {
+          "old": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/RE_CSR_Part1/Dev/vgaddu/acrf/aCRF.pdf",
+          "new": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/RE_CSR_Part1/Dev/vgaddu/acrf/incorrect.pdf"
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T02:53:19.622179",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\myf1001_csr_part1.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T02:53:28.464259",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "paths.annotated_crf_file": {
+          "old": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/RE_CSR_Part1/Dev/vgaddu/acrf/aCRF.pdf",
+          "new": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/RE_CSR_Part1/Dev/vgaddu/acrf/incorrect.pdf"
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T02:56:04.122113",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T03:00:29.973628",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\myf1001_csr_part1.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T03:00:39.373970",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "paths.annotated_crf_file": {
+          "old": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/RE_CSR_Part1/Dev/vgaddu/acrf/aCRF.pdf",
+          "new": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/RE_CSR_Part1/Dev/vgaddu/acrf/incorrect.pdf"
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T03:00:52.168682",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T03:05:09.779664",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\test.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T03:05:14.188076",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T03:09:52.492726",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\test.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T03:09:56.187848",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T03:18:41.442951",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\test.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T03:18:57.181794",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T03:23:27.325893",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\test.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T03:23:29.804165",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T03:26:25.938259",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\test.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T03:26:31.130440",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T03:33:41.467727",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\test.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T03:33:45.275665",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T03:35:48.683021",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T03:39:09.470487",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\test.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T03:39:12.451025",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T03:41:19.809870",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\test.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T03:41:22.451629",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T03:43:09.198685",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\test.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T03:43:11.770166",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T03:44:16.497871",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\test.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T03:44:18.730982",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T04:00:14.481718",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\test.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T04:00:16.404426",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "validation.apply_xfdf_colors": {
+          "old": null,
+          "new": true
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T04:02:13.089560",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T04:05:00.670418",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\test.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T04:05:03.954193",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "validation.apply_xfdf_colors": {
+          "old": null,
+          "new": true
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T04:10:41.962145",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\test.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T04:10:44.951625",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "validation.apply_xfdf_colors": {
+          "old": null,
+          "new": true
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T04:13:21.443929",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\test.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T04:13:31.617021",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "validation.apply_xfdf_colors": {
+          "old": null,
+          "new": true
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T04:15:19.557714",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\test.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T04:15:21.606069",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "validation.apply_xfdf_colors": {
+          "old": null,
+          "new": true
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T04:18:37.378665",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\test.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T04:18:39.571620",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "validation.apply_xfdf_colors": {
+          "old": null,
+          "new": true
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T04:20:41.680693",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\test.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T04:20:43.627986",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "validation.apply_xfdf_colors": {
+          "old": null,
+          "new": true
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T04:24:47.782711",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\test.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T04:24:51.304110",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "validation.apply_xfdf_colors": {
+          "old": null,
+          "new": true
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T04:31:18.226175",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\test.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-22T04:31:21.491430",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "validation.apply_xfdf_colors": {
+          "old": null,
+          "new": true
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  }
+]

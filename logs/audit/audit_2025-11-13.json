@@ -1,0 +1,84 @@
+[
+  {
+    "timestamp": "2025-11-13T10:16:53.977997",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-11-13T10:19:45.598913",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-11-13T10:23:12.965849",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-11-13T13:04:50.062470",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-11-13T13:05:34.688672",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-11-13T13:15:08.440671",
+    "event_type": "config_load",
+    "user": "vgaddu",
+    "action": "Loaded configuration from file",
+    "details": {
+      "file_path": "\\\\vc07\\Biometrics\\GRN163L_imetelstat\\MYF1001\\DB_CSR_Part1\\RE_CSR_Part1\\Dev\\vgaddu\\acrf\\myf1001_csr_part1.yaml"
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-11-13T13:15:42.634071",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "validation.horizontal_tolerance": {
+          "old": 20.0,
+          "new": 1.0
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  }
+]

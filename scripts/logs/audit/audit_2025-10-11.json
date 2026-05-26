@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "2025-10-11T04:24:23.967984",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-11T04:24:29.416165",
+    "event_type": "config_reset",
+    "user": "vgaddu",
+    "action": "Reset configuration to default",
+    "details": {},
+    "status": "success",
+    "ip_address": null
+  }
+]

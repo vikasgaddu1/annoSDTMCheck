@@ -1,0 +1,119 @@
+[
+  {
+    "timestamp": "2025-10-11T03:35:28.784800",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-11T03:36:47.874144",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "paths.annotated_crf_file": {
+          "old": "",
+          "new": "T:/annoSDTMCheck/input/aCRF.pdf"
+        },
+        "paths.sdtm_directory": {
+          "old": "sdtm_data/",
+          "new": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/SDTM"
+        },
+        "paths.output_directory": {
+          "old": "output/",
+          "new": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/RE_CSR_Part1/Dev/vgaddu/acrf"
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-11T03:45:11.666603",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "paths.annotated_crf_file": {
+          "old": "",
+          "new": "T:/annoSDTMCheck/input/aCRF.pdf"
+        },
+        "paths.sdtm_directory": {
+          "old": "sdtm_data/",
+          "new": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/SDTM"
+        },
+        "paths.output_directory": {
+          "old": "output/",
+          "new": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/RE_CSR_Part1/Dev/vgaddu/acrf"
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-11T03:57:04.531657",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "paths.annotated_crf_file": {
+          "old": "",
+          "new": "T:/annoSDTMCheck/input/aCRF.pdf"
+        },
+        "validation.generic_author_name": {
+          "old": "Geron",
+          "new": "Argenx"
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-11T03:57:36.338520",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {
+        "paths.sdtm_directory": {
+          "old": "sdtm_data/",
+          "new": "//vc07/Biometrics/GRN163L_imetelstat/MYF1001/DB_CSR_Part1/SDTM"
+        }
+      }
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-11T03:57:48.288537",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  },
+  {
+    "timestamp": "2025-10-11T03:58:18.410402",
+    "event_type": "config_change",
+    "user": "vgaddu",
+    "action": "Updated configuration",
+    "details": {
+      "changes": {}
+    },
+    "status": "success",
+    "ip_address": null
+  }
+]

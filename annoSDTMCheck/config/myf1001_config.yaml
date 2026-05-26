@@ -1,0 +1,157 @@
+annotation_patterns:
+  patterns:
+  - description: Domain label pattern (e.g., SV = Subject Visit)
+    groups:
+      domain: 1
+      label: 2
+    name: DOMAIN_LABEL
+    regex: ^([A-Z]{2})\s*=\s*([^=]+)$
+  - description: Variable value pattern (e.g., DSCAT = 'PROTOCOL MILESTONE')
+    groups:
+      value: 2
+      variable_name: 1
+    name: VARIABLE_VALUE_SINGLE_QUOTES
+    regex: ^([A-Z0-9_]+)\s*=\s*'([^']+)'$
+  - description: Not Submitted comment (e.g., NOT SUBMITTED)
+    groups:
+      dummy: 1
+    name: NOT_SUBMITTED_COMMENT
+    regex: ^NOT SUBMITTED$
+  - description: Domain when condition (e.g., RELREC when FASPID = AESPID)
+    groups:
+      condition: 2
+      domain: 1
+    name: DOMAIN_WHEN_CONDITION
+    regex: ^([A-Z]{2,})\s+when\s+(.+)$
+  - description: Variable with TESTCD condition (e.g., PFORRES when PFTESTCD = CYTABNRM)
+    groups:
+      test_cd_value: 3
+      test_cd_variable: 2
+      variable_name: 1
+    name: VARIABLE_WITH_TESTCD_CONDITION
+    regex: ^([A-Z0-9_]+)\s+when\s+([A-Z0-9_]+)\s*=\s*([A-Z0-9_]+)$
+  - description: DOMAIN=DM VARIABLE=SUBJID [VALUE="value"]
+    groups:
+      domain: 1
+      value: 3
+      variable_name: 2
+    name: DOMAIN_EQUALS
+    regex: ^DOMAIN=([A-Z]{2})\s+VARIABLE=([A-Z0-9_]+)(?:\s+VALUE="([^"]*)")?$
+  - description: DOMAIN VARIABLE = "value" (e.g., DM SUBJID = "123")
+    groups:
+      domain: 1
+      value: 3
+      variable_name: 2
+    name: DOMAIN_VAR_VALUE
+    regex: ^([A-Z]{2})\s+([A-Z0-9_]+)\s*=\s*"([^"]*)"$
+  - description: VARIABLE in SUPPDOMAIN [when VALUE]
+    groups:
+      condition: 3
+      domain: 2
+      variable_name: 1
+    name: SUPP_DOMAIN
+    regex: ^([A-Z0-9_]+)\s+in\s+(SUPP[A-Z]{2,})(?:\s+when\s+(.+))?$
+  - description: VAR1,VAR2 when ... (e.g., VSORRES,VSORRESU when VSTESTCD=HEIGHT)
+    groups:
+      condition: 2
+      variables: 1
+    name: VAR_LIST_WHEN
+    regex: ^((?:[A-Z0-9_]+)(?:(?:/|,)\s*[A-Z0-9_]+)+)\s+when\s+(.+)$
+  - description: VAR = value when ... (e.g., VAR = 'value' when COND = VALUE)
+    groups:
+      condition: 3
+      value: 2
+      variable_name: 1
+    name: VARIABLE_VALUE_CONDITION
+    regex: ^([A-Z0-9_]+)\s*=\s*'?([^']+?)'?\s+when\s+(.+)$
+  - description: VARIABLE when ... (e.g., VSORRES when VSTESTCD=HEIGHT)
+    groups:
+      condition: 2
+      variable_name: 1
+    name: VARIABLE_WHEN
+    regex: ^([A-Z0-9_]+)\s+when\s+(.+)$
+  - description: VAR1,VAR2 = value (e.g., FACAT,FAOBJ = 'value')
+    groups:
+      value: 2
+      variables: 1
+    name: VAR_LIST_VALUE
+    regex: ^((?:[A-Z0-9_]+)(?:(?:/|,)\s*[A-Z0-9_]+)+)\s*=\s*([\\'\"].*[\\'\"])$
+  - description: VARIABLE = 'value' (e.g., SUBJID = '123')
+    groups:
+      value: 2
+      variable_name: 1
+    name: VARIABLE_VALUE_SINGLE_QUOTES_GENERIC
+    regex: ^([A-Z0-9_]+)\s*=\s*'([^']+?)'?$
+  - description: VARIABLE = value (generic)
+    groups:
+      value: 2
+      variable_name: 1
+    name: VARIABLE_VALUE_GENERIC
+    regex: ^([A-Z0-9_]+)\s*=\s*(.+)$
+  - description: VAR1,VAR2,... (e.g., DSSTDTC/RFICDTC)
+    groups:
+      variables: 1
+    name: VAR_LIST_GENERIC
+    regex: ^((?:[A-Z0-9_]+)(?:(?:/|,)\s*[A-Z0-9_]+)+)$
+  - description: DOMAIN.VARIABLE (e.g., DM.SUBJID)
+    groups:
+      domain: 1
+      variable_name: 2
+    name: DOMAIN_VAR
+    regex: ^([A-Z]{2})\.([A-Z0-9_]+)$
+  - description: DOMAIN-VARIABLE (e.g., DM-SUBJID)
+    groups:
+      domain: 1
+      variable_name: 2
+    name: DOMAIN_VAR_HYPHEN
+    regex: ^([A-Z]{2})-([A-Z0-9_]+)$
+  - description: Variable in DOMAIN when CONDITION (e.g., RELID in RELREC when FASEQ
+      = AEGRPID)
+    groups:
+      condition: 3
+      domain: 2
+      variable_name: 1
+    name: VARIABLE_IN_DOMAIN_WHEN
+    regex: ^([A-Z0-9_]+)\s+in\s+([A-Z]{2,})\s+when\s+(.+)$
+  - description: DOMAIN|VARIABLE (e.g., DM|SUBJID)
+    groups:
+      domain: 1
+      variable_name: 2
+    name: DOMAIN_VAR_PIPE
+    regex: ^([A-Z]{2})\|([A-Z0-9_]+)$
+  - description: Single variable name (e.g., SUBJID)
+    groups:
+      variable_name: 1
+    name: SINGLE_VARIABLE
+    regex: ^([A-Z0-9_]+)$
+  - description: '[VALUE] (bracketed value, treated as comment)'
+    groups:
+      value: 1
+    name: BRACKET_VALUE
+    regex: ^\[(NOT SUBMITTED|[^\]]+)\]$
+  - description: VAR1-VAR4 (variable range)
+    groups:
+      domain: 3
+      variable_name: 1
+      variable_name_end: 2
+    name: VARIABLE_RANGE
+    regex: ^([A-Z0-9_]+)-([A-Z0-9_]+)(?:\s+in\s+(SUPP[A-Z]{2,}))?$
+  - description: 'Question or comment format (e.g., NOTE: ... or ...?)'
+    groups:
+      dummy: 1
+    name: COMMENT
+    regex: ^(?:V\d+\.\d+|NOTE:.*|Custom domain instead of [A-Z]{2}\? [A-Z]{2}\?|Capture
+      in [A-Z]{2}\?|.*\?)$
+  settings:
+    fuzzy_matching: true
+    fuzzy_threshold: 0.85
+paths:
+  annotated_crf_file: //vc01/biometrics/GRN163L_imetelstat/MYF1001/DB_CSR/RE_CSR/Dev/vgaddu/myf1001-Uniques_SDTM_30OCT2023_VG.pdf
+  default_output_file: validation_report.xlsx
+  output_directory: //vc01/biometrics/GRN163L_imetelstat/MYF1001/DB_CSR/RE_CSR/Dev/vgaddu/CRF_Checks
+  sdtm_directory: //vc01/biometrics/GRN163L_imetelstat/MYF1001/DB_CSR/SDTM
+validation:
+  ignore_domains: []
+  ignore_variables:
+  - STUDYID
+  - USUBJID
