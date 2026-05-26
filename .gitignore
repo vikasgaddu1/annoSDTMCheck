@@ -91,6 +91,7 @@ crf/*.pdf
 # Config files with sensitive data
 config/local_config.yaml
 config/*.json
+*.egg-info/
 **/secret.key
 
 # Jupyter Notebook
